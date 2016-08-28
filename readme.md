@@ -21,8 +21,7 @@ bower install
 ````
 
 ##Using template (start gulp tasks)
-In main project directory
+In main project directory (keep terminal opened)
 ````
 gulp
 ````
-(keep terminal opened)
