@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "grunt-bake": "^1.7.2",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
+    "gulp-grunt": "^0.5.4",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0"
   }

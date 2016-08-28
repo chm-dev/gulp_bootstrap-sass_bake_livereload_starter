@@ -1,3 +1,8 @@
-$dark-color : #0e0;
+$dark-color: #222;
+$light-color: #eee;
 
-body{background: $dark-color;}
+body {
+    background: $dark-color;
+    color: $light-color;
+    padding: 10px 20px;
+}
