@@ -16,12 +16,11 @@ Templated is based on [gist by user theRemix](https://gist.github.com/theRemix/b
 npm install
 ````
 
-3. In main project directory
 ````
 bower install
 ````
 
-##Using template (start gulp)
+##Using template (start gulp tasks)
 In main project directory
 ````
 gulp
