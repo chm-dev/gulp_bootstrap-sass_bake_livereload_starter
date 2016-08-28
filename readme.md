@@ -5,7 +5,7 @@ Gulp serves static content from directory public/ and watches for changes of fil
 If change is made to sass file it is compiled to public/css/dist directory.
 
 There is [grunt-bake](https://github.com/MathiasPaumgarten/grunt-bake) which allows you to use modular static html pages in development.
-It is used in gulpfile.js with help of [gulp-grunt](https://github.com/gratimax/gulp-grunt), which allows to use both gulp and grunt tasks in gulpfile.js
+It is used with help of [gulp-grunt](https://github.com/gratimax/gulp-grunt), which allows to use both gulp and grunt tasks in gulpfile.js
 
 
 Templated is based on [gist by user theRemix](https://gist.github.com/theRemix/b9f10de0bead6a7eaf5a) but Foundation is replaced with Bootstrap and bake added.
