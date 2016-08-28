@@ -1,4 +1,4 @@
-# Gulp + Sass + LiveReload + Bootstrap
+# Gulp + Sass + LiveReload + Bake + Bootstrap
 
 This is working empty template with gulp workflow.
 Gulp serves static content from directory public/ and watches for changes of files in it to trigger live reload.
