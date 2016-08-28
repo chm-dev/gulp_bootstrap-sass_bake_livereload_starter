@@ -25,3 +25,4 @@ In main project directory
 ````
 gulp
 ````
+(keep terminal opened)
