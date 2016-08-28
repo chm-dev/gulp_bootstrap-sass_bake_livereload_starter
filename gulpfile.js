@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var connect = require('gulp-connect');
+var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('connect', function() {
   connect.server({
@@ -9,10 +10,14 @@ gulp.task('connect', function() {
   });
 });
 
-gulp.task('sass', function(){
-  return gulp.src('./sass/**/*.scss')
-    .pipe(sass( {errLogToConsole: true } ))
-    .pipe(gulp.dest('./public/css/dist'));
+gulp.task('sass', function() {
+    return gulp.src('./sass/**/*.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass({
+            errLogToConsole: true
+        }))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('./public/css/dist'));
 });
 
 gulp.task('livereload', function() {
